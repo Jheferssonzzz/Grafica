@@ -1,3 +1,4 @@
+#'@export
 library(shiny)
 library(ggplot2)
 
@@ -22,3 +23,8 @@ grafico_ventas <- function() {
     theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 }
 grafico_ventas()
+
+
+
+
+
